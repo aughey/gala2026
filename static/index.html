@@ -20,7 +20,7 @@
       <label class="search"><span>Find cue</span><input id="search" type="search" placeholder="Speaker, action, time…"></label>
       <label><span>Columns</span><select id="department"><option value="overview">Calling overview</option><option value="lighting">Lighting</option><option value="audio">Audio</option><option value="video">Camera & screens</option><option value="all">All columns</option></select></label>
       <label><span>Show</span><select id="filter"><option value="all">All cues</option><option value="review">Needs review</option><option value="changed">Changed cues</option><option value="calls">Cues with calls</option></select></label>
-      <button id="add">+ Add program item</button><button id="export">Export working CSV</button><a href="/export/baseline.csv" download="baseline.csv">Baseline CSV ↗</a>
+      <button id="add">+ Add program item</button><button id="export">Export working CSV</button><button id="exportJson">Export working JSON</button><label>Import JSON <input id="importJson" type="file" accept=".json,application/json"></label><button id="resetDraft" hidden>Use published show</button><a id="baselineExport" href="/export/baseline.csv" download="baseline.csv">Baseline CSV ↗</a>
     </section>
     <p class="hint" id="hint">Edit any cell; changes save automatically to the working JSON and CSV. Select a cue number for its source and full details.</p>
     <section id="editView" hidden><div class="table-wrap"><table id="cueTable"></table></div></section>
@@ -44,6 +44,6 @@
     <section id="changesView" hidden></section>
   </main>
   <dialog id="details"><form method="dialog"><button class="close" aria-label="Close">×</button></form><div id="detailBody"></div></dialog>
-  <script src="timing.js"></script><script src="stage-state.js"></script><script src="app.js"></script>
+  <script src="config.js"></script><script src="data-store.js"></script><script src="timing.js"></script><script src="stage-state.js"></script><script src="app.js"></script>
 </body>
 </html>

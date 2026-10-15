@@ -6,13 +6,39 @@ The original `2026 Gala Event Manual    - Run of Show.csv` is preserved. The cle
 - `working.json`: authoritative editable show, including original source records.
 - `working.csv`: spreadsheet export, regenerated whenever the viewer saves.
 
-Run `python3 server.py` from this directory, then open http://localhost:8765. No installation or network connection is required.
+## Static site and GitHub Pages
 
-The viewer reads `data/working.json` through the local server; its show title, cue order, times, actions, and caller wording come from that file. The interface displays the active file path. Changes to that file appear automatically within about two seconds when you are not editing, with no rebuild or server restart. The original CSV is input to extraction, rather than the live viewer file; `working.csv` is an output export.
+Live site: https://aughey.github.io/gala2026/
+
+Build with Python 3 (standard library only):
+
+```sh
+python3 build.py
+```
+
+Publish the contents of `dist/` on any static host. The build copies the interface and packages the committed `data/working.json`, `data/baseline.json`, field definitions, and CSV exports as static assets. All asset and data URLs are relative, so repository subpaths work. There is no backend, API, database, package installation, or runtime Python dependency on the deployed site.
+
+For a local preview, run `python3 -m http.server 8000 --directory dist`, then open http://localhost:8000. This only serves static files; `server.py` is not needed. Opening `index.html` directly with `file://` is not supported because browsers restrict fetching local JSON.
+
+The static viewer loads `data/show.json`. Edits save automatically in this browser's local storage, scoped to this site path. They do not modify the public site or repository and do not sync between devices. **Export working JSON** backs up the complete current show, including source records. **Import JSON** restores a version-3 show from that export. **Export working CSV** exports the current edits for spreadsheets; CSV is not an import format. **Use published show** discards this browser's draft and returns to the published data. Download JSON before clearing browser data or switching devices. Storage errors offer a recovery download.
+
+New deployments preserve an existing browser draft and display a notice when the bundled show has changed. Export your draft before selecting **Use published show** to adopt the update. Stale saves from another tab are rejected; export recovery JSON and reload to resolve them. Position and timing also persist in this browser.
+
+To publish an edited show, export working JSON, replace `data/working.json` with it, regenerate the matching CSV with the command below, and commit and push to `main`:
+
+```sh
+python3 -c "import json; from extract import ROOT, csv_text; (ROOT / 'data/working.csv').write_text(csv_text(json.loads((ROOT / 'data/working.json').read_text())), encoding='utf-8')"
+```
+
+`.github/workflows/pages.yml` runs the Python and JavaScript tests, builds `dist/`, uploads the Pages artifact, and deploys pushes to `main`. Pull requests run tests and build without deploying. Manual deployment is available from the Actions tab. Pages is configured to use GitHub Actions. See [GitHub's custom workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+
+## Optional local file-backed editor
+
+Run `python3 server.py` from this directory, then open http://localhost:8765. No installation or network connection is required. This mode reads and writes `data/working.json` and regenerates `data/working.csv`; it checks for file changes every two seconds. The following file-saving and polling descriptions apply to this optional local mode. In the static site, the same editing and calling interface uses browser-local drafts instead.
 
 ## Working with the show
 
-Edit cells; changes save automatically after a brief typing pause. Use the Columns menu for lighting, individual audio channels, camera/screens, or all fields. Cue numbers open all editable fields plus the exact original record. The Changes tab compares the working copy against the baseline. The Call the show tab provides the current cue, suggested caller script, trigger, next cue, and arrow/space navigation. Calling position stays in browser storage; it is not a record of executed cues.
+Edit cells; changes save automatically after a brief typing pause (browser storage on the static site, working files in local server mode). Use the Columns menu for lighting, individual audio channels, camera/screens, or all fields. Cue numbers open all editable fields plus the exact original record. The Changes tab compares the working copy against the baseline. The Call the show tab provides the current cue, suggested caller script, trigger, next cue, and arrow/space navigation. Calling position stays in browser storage; it is not a record of executed cues.
 
 ## Calling the show
 

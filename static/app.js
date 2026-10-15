@@ -1,4 +1,6 @@
 'use strict';
+const staticMode = window.GALA_STATIC === true;
+const store = ShowData.create({staticMode, storage:localStorage, fetcher:window.fetch.bind(window), scope:location.pathname.replace(/index\.html$/, '')});
 let show, baseline, fields, mode = 'call', saving = false, dirty = false, conflict = false;
 let selected = localStorage.getItem('gala-calling-position') || '', saveTimer;
 let timing={running:false,anchor:null,enteredAt:null};
@@ -96,12 +98,9 @@ async function save() {
   if(!dirty||saving||conflict) return;
   saving=true; dirty=false; status('Saving…');
   try {
-    const response=await fetch('/api/show',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({revision:show.revision,cues:show.cues})});
-    const data=await response.json();
-    if(!response.ok) { if(response.status===409) conflict=true; throw new Error(data.error||'Save failed'); }
-    show.revision=data.revision;
-    status('Saved to working files · revision '+show.revision); error('');
-  } catch(e) { dirty=true; error(e.message+' Your edits remain in this page. Download a recovery copy before reloading.'); status('Not saved'); recovery(); }
+    show.revision=await store.save(show);
+    status((staticMode?'Saved in this browser · revision ':'Saved to working files · revision ')+show.revision); error('');
+  } catch(e) { if(e.conflict)conflict=true; dirty=true; error(e.message+' Your edits remain in this page. Download a recovery copy before reloading.'); status('Not saved'); recovery(); }
   finally { saving=false; if(dirty&&!conflict&&!$('error').textContent) saveTimer=setTimeout(save,350); }
 }
 function recovery() {
@@ -283,21 +282,38 @@ $('fullscreen').onclick=async()=>{try{if(document.fullscreenElement)await docume
 document.addEventListener('fullscreenchange',()=>{$('fullscreen').textContent=document.fullscreenElement?'Exit full screen':'Full screen';});
 document.addEventListener('keydown',e=>{if(mode!=='call'||!show||$('details').open||e.repeat||/INPUT|TEXTAREA|SELECT/.test(e.target.tagName))return;if(e.key===' '&&e.target.closest('button'))return;if(['ArrowRight','ArrowDown',' '].includes(e.key)){e.preventDefault();step(1);}if(['ArrowLeft','ArrowUp'].includes(e.key)){e.preventDefault();step(-1);}});
 $('add').onclick=()=>{const cue=Object.fromEntries(fields.map(([k])=>[k,'']));cue.id='new-'+crypto.randomUUID();cue.item_id=cue.id;cue.item='New program item';cue.kind='note';cue.sequence=String(show.cues.length+1).padStart(3,'0');cue.confirmed=false;cue.review='New program item — add Standby and Go calls below.';show.cues.push(cue);dirty=true;render();save();details(cue.id);};
-$('export').onclick=async()=>{await save();if(dirty||conflict){error('Resolve the save error or download the recovery JSON before exporting.');return;}const a=document.createElement('a');a.href='/export/working.csv';a.download='gala-working.csv';a.click();};
+$('export').onclick=()=>download(ShowData.csv(show,fields),'gala-working.csv','text/csv;charset=utf-8');
+$('exportJson').onclick=()=>download(JSON.stringify(show,null,2)+'\n','gala-working.json','application/json');
+$('importJson').onchange=async e=>{
+  const file=e.target.files[0];if(!file)return;
+  try {
+    const imported=JSON.parse(await file.text());ShowData.validate(imported);
+    show={...imported,revision:show.revision};dirty=true;conflict=false;
+    await save();render();
+  }catch(e){error(e.message);}
+  finally {e.target.value='';}
+};
+$('resetDraft').onclick=()=>{
+  if(!confirm('Discard this browser’s edits and load the published show? Export working JSON first to keep a copy.'))return;
+  clearTimeout(saveTimer);store.reset();dirty=false;conflict=false;show=null;load(true);
+};
+if(staticMode){
+  $('baselineExport').href='data/baseline.csv';$('resetDraft').hidden=false;
+  $('hint').textContent='Edits save in this browser only. Export JSON to back up or move your show; export CSV for spreadsheets. Select a cue number for source and full details.';
+}
 window.addEventListener('beforeunload',e=>{if(dirty||saving){e.preventDefault();e.returnValue='';}});
 async function load(initial=false) {
   try {
-    const response=await fetch('/api/show');if(!response.ok)throw new Error('Could not read show files');
-    const data=await response.json();
+    const data=await store.read();
     if(!initial&&(dirty||saving||$('details').open||document.activeElement?.tagName==='TEXTAREA'))return;
     const differs=!show||JSON.stringify(show)!==JSON.stringify(data.working)||JSON.stringify(baseline)!==JSON.stringify(data.baseline);
     if(differs){show=data.working;baseline=data.baseline;fields=data.fields;
       if(!show.cues.some(c=>c.id===selected)){const mapped=show.cues.find(c=>c.member_ids?.includes(selected));if(mapped)selected=mapped.id;}
       $('showTitle').textContent=show.title||'Untitled show';
       document.title=(show.title||'Untitled show')+' · Show caller';
-      $('fileSource').textContent='Reading '+data.working_file+' · checks for changes every 2 seconds';
+      $('fileSource').textContent=staticMode?'Bundled '+data.working_file+' · edits stay in this browser'+(data.newerPublished?' · New published show available; export your draft before choosing Use published show.':''):'Reading '+data.working_file+' · checks for changes every 2 seconds';
       render();}
-    status('Saved to working files · revision '+show.revision);error('');
-  }catch(e){error(e.message+' · Check that the local server is running.');status('Disconnected');}
+    status((staticMode?'Saved in this browser · revision ':'Saved to working files · revision ')+show.revision);error('');
+  }catch(e){error(e.message+(staticMode?' · Reload to retry loading the static site.':' · Check that the local server is running.'));status('Disconnected');}
 }
 setMode('call');load(true);setInterval(()=>{if(!conflict&&!dirty&&!saving)load();},2000);setInterval(tickCalling,1000);
