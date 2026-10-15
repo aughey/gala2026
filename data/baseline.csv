@@ -1,0 +1,335 @@
+Sequence,Program item,Call type,Source time,Estimated time,Standby lead (seconds),Linked GO time,Duration,Call trigger,House lights,Stage lights,Backlight / object lights,Fr Brian lav,Podium mic,Piano / pianist,Choir mics,Erin handheld,DJ,Stage monitors,Other audio,Camera,Screens / playback,Activity / stage action,Caller script,Questions / assumptions,Reviewed,Source record,Program item ID,Technical moment ID,Standby / GO pair ID
+001,Tech rehearsal,note,4:00 PM,,,,,,,,,,,,,,,,,,,"Tech rehearsal: 
+
+All presenters, speakers, show participants, Raising Paddles/Erin, Encore/Bryan/operators, John, and Alicia. (DJ not participating.)
+
+John/CSC directs show from control booth.
+
+Alicia/CSC directs presenters/speakers/show participants from the floor.
+
+DJ set on floor, including lighting tree, audience right. Ready by 6 pm.",,Caller wording is suggested; confirm the GO trigger with the show team.,False,1,item-001,source-001,
+002,Transition from reception to dinner,standby,,,30,6:15 PM,,Before the linked GO — confirm standby point. ,Up,,,,,,,,DJ sound on; Encore sound system,,,,Slide - Theme logo,"Transition from reception to dinner:
+
+Chase opens air walls. CSC begins pushing guests into the ballroom. 
+
+DJ plays background music.","Standby House lights up
+Standby DJ music
+Standby screens — Theme logo","Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,2,item-002,source-002,source-002-dj|source-002-house|source-002-screens
+003,Transition from reception to dinner,go,6:15 PM,,,6:15 PM,15 minutes,,Up,,,,,,,,DJ sound on; Encore sound system,,,,Slide - Theme logo,"Transition from reception to dinner:
+
+Chase opens air walls. CSC begins pushing guests into the ballroom. 
+
+DJ plays background music.","Lights, DJ, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,2,item-002,source-002,source-002-dj|source-002-house|source-002-screens
+004,Opening number,standby,,,30,6:30 PM,,Before the linked GO — confirm standby point. ,Down,Up,,,,"Piano with amp: power on
+Pianist: 
+Stand mic on","Choir: 
+Four wireless mics on. 
+Four choral mics on.",,,Two monitor speakers on stage: power on,,Choir,Camera feed,"Opening number: 
+
+One Voice by Barry Manilow.","Standby House lights down
+Standby Stage lights up
+Standby Piano / pianist on
+Standby Choir mics on
+Standby Stage monitors on
+Standby camera — Choir
+Standby screens — Camera feed","Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,3,item-003,source-003,source-003-camera|source-003-choir|source-003-house|source-003-monitors|source-003-piano|source-003-screens|source-003-stage
+005,Opening number,go,6:30 PM,,,6:30 PM,4 Minutes,,Down,Up,,,,"Piano with amp: power on
+Pianist: 
+Stand mic on","Choir: 
+Four wireless mics on. 
+Four choral mics on.",,,Two monitor speakers on stage: power on,,Choir,Camera feed,"Opening number: 
+
+One Voice by Barry Manilow.","Lights, Sound, Camera, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,3,item-003,source-003,source-003-camera|source-003-choir|source-003-house|source-003-monitors|source-003-piano|source-003-screens|source-003-stage
+006,Opening number,standby,,,30,6:34 PM,,Before the linked GO — confirm standby point. ,,,,,,Pianist mic off.,All choir mics off.,,,,,,Slide - Theme logo,Transition from choir to speaker,"Standby Piano / pianist off
+Standby Choir mics off
+Standby screens — Theme logo","Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,4,item-003,source-004,source-004-choir|source-004-piano|source-004-screens
+007,Opening number,go,6:34 PM,,,6:34 PM,,,,,,,,Pianist mic off.,All choir mics off.,,,,,,Slide - Theme logo,Transition from choir to speaker,"Sound, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,4,item-003,source-004,source-004-choir|source-004-piano|source-004-screens
+008,Welcome,standby,,,30,6:34 PM,,Before the linked GO — confirm standby point. ,,,,Fr Brian lav on,,,,,,,,Speaker,Camera feed,"Welcome:
+
+Fr Brian walks on stage when song ends and the audience is clapping. 
+
+Welcome and set up the evening.","Standby Fr Brian lav on
+Standby camera — Speaker
+Standby screens — Camera feed","Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,5,item-005,source-005,source-005-camera|source-005-lav|source-005-screens
+009,Welcome,go,6:34 PM,,,6:34 PM,2 Minutes,,,,,Fr Brian lav on,,,,,,,,Speaker,Camera feed,"Welcome:
+
+Fr Brian walks on stage when song ends and the audience is clapping. 
+
+Welcome and set up the evening.","Sound, Camera, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,5,item-005,source-005,source-005-camera|source-005-lav|source-005-screens
+010,Newman Award Presentation,standby,,,30,6:36 PM,,Before the linked GO — confirm standby point. ,,,,,,,,,,,,Speaker,Camera feed,"Newman Award Presentation 
+
+Fr Brian introduces honorees and invites them to the stage.","Standby camera — Speaker
+Standby screens — Camera feed","Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,6,item-006,source-006,source-006-camera|source-006-screens
+011,Newman Award Presentation,go,6:36 PM,,,6:36 PM,2 Minutes,,,,,,,,,,,,,Speaker,Camera feed,"Newman Award Presentation 
+
+Fr Brian introduces honorees and invites them to the stage.","Camera, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,6,item-006,source-006,source-006-camera|source-006-screens
+012,Newman Award Presentation,standby,,,30,6:38 PM,,Before the linked GO — confirm standby point. ,,,,,,,,,DJ sound on.,,,,Slide - Reggie and Carol MacDonald,DJ plays upbeat instrumental walk up music.,"Standby DJ music
+Standby screens — Reggie and Carol MacDonald","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Estimated time assumes the preceding duration ends at this cue. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,7,item-006,source-007,source-007-dj|source-007-screens
+013,Newman Award Presentation,go,,6:38 PM,,6:38 PM,,,,,,,,,,,DJ sound on.,,,,Slide - Reggie and Carol MacDonald,DJ plays upbeat instrumental walk up music.,"DJ, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Estimated time assumes the preceding duration ends at this cue. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,7,item-006,source-007,source-007-dj|source-007-screens
+014,Newman Award Presentation,standby,,,30,,,Before the linked GO — confirm standby point. ,,,,,Podium mic on.,,,,DJ sound off.,,,Speakers,Camera feed,Reggie and Carol MacDonald walk up to the stage and speak from podium.,"Standby Podium mic on
+Standby DJ music off
+Standby camera — Speakers
+Standby screens — Camera feed","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,8,item-006,source-008,source-008-camera|source-008-dj|source-008-podium|source-008-screens
+015,Newman Award Presentation,go,,,,,4 Minutes,,,,,,Podium mic on.,,,,DJ sound off.,,,Speakers,Camera feed,Reggie and Carol MacDonald walk up to the stage and speak from podium.,"Sound, DJ, Camera, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,8,item-006,source-008,source-008-camera|source-008-dj|source-008-podium|source-008-screens
+016,Newman Award Presentation,note,,,,,1 Minute,,,,,,,,,,,,,,,"Fr. Brian says a few words and provides award.
+
+MacDonalds exit stage.",,Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger.,False,9,item-006,source-009,
+017,Archbishop and food blessing,standby,,,30,6:43 PM,,Before the linked GO — confirm standby point. ,,,,,,,,,,,,Speaker,Camera feed,"Archbishop and food blessing:
+
+Fr. Brian introduces the Archbishop","Standby camera — Speaker
+Standby screens — Camera feed","Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,10,item-010,source-010,source-010-camera|source-010-screens
+018,Archbishop and food blessing,go,6:43 PM,,,6:43 PM,2 Minutes,,,,,,,,,,,,,Speaker,Camera feed,"Archbishop and food blessing:
+
+Fr. Brian introduces the Archbishop","Camera, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,10,item-010,source-010,source-010-camera|source-010-screens
+019,Archbishop and food blessing,standby,,,30,6:45 PM,,Before the linked GO — confirm standby point. ,,,,,,,,,DJ sound on.,,,,Slide - Archbishop Mitchell Rozanski,DJ plays upbeat instrumental walk up music.,"Standby DJ music
+Standby screens — Archbishop Mitchell Rozanski","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Estimated time assumes the preceding duration ends at this cue. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,11,item-010,source-011,source-011-dj|source-011-screens
+020,Archbishop and food blessing,go,,6:45 PM,,6:45 PM,,,,,,,,,,,DJ sound on.,,,,Slide - Archbishop Mitchell Rozanski,DJ plays upbeat instrumental walk up music.,"DJ, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Estimated time assumes the preceding duration ends at this cue. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,11,item-010,source-011,source-011-dj|source-011-screens
+021,Archbishop and food blessing,standby,,,30,,,Before the linked GO — confirm standby point. ,,,,,,,,,,,,Speaker,Camera feed,Archbishop walks up to the stage and speaks from the podium. Blesses the food we are about to receive.,"Standby camera — Speaker
+Standby screens — Camera feed","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,12,item-010,source-012,source-012-camera|source-012-screens
+022,Archbishop and food blessing,go,,,,,1 Minute,,,,,,,,,,,,,Speaker,Camera feed,Archbishop walks up to the stage and speaks from the podium. Blesses the food we are about to receive.,"Camera, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,12,item-010,source-012,source-012-camera|source-012-screens
+023,Archbishop and food blessing,standby,,,30,,,Before the linked GO — confirm standby point. ,,,,,Podium mic off.,,,,,,,Speaker,Camera feed,"Fr. Brian thanks the Archbishop.
+
+Fr. Brian announces that the silent auction is closing at 7 pm.
+
+Fr. Brian tells everyone to enjoy their meal.
+
+Fr Brian and Archbishop exit stage.","Standby Podium mic off
+Standby camera — Speaker
+Standby screens — Camera feed","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,13,item-010,source-013,source-013-camera|source-013-podium|source-013-screens
+024,Archbishop and food blessing,go,,,,,1 Minute,,,,,,Podium mic off.,,,,,,,Speaker,Camera feed,"Fr. Brian thanks the Archbishop.
+
+Fr. Brian announces that the silent auction is closing at 7 pm.
+
+Fr. Brian tells everyone to enjoy their meal.
+
+Fr Brian and Archbishop exit stage.","Sound, Camera, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,13,item-010,source-013,source-013-camera|source-013-podium|source-013-screens
+025,Show breaks for dinner service,standby,,,30,6:47 PM,,Before the linked GO — confirm standby point. ,Up,Up,,Fr Brian lav off.,,Piano keyboard mic on. Volume to allow for conversation at tables.,,,,,,,Slide - Theme logo,"Show breaks for dinner service:
+
+Pianist/Josh Elboom plays piano during dinner.","Standby House lights up
+Standby Stage lights up
+Standby Fr Brian lav off
+Standby Piano / pianist on
+Standby screens — Theme logo","Caller wording is suggested; confirm the GO trigger with the show team. Source dinner duration is approximately 45 min; 6:47–7:30 is 43 min. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,14,item-014,source-014,source-014-house|source-014-lav|source-014-piano|source-014-screens|source-014-stage
+026,Show breaks for dinner service,go,6:47 PM,,,6:47 PM,~45 Minutes,,Up,Up,,Fr Brian lav off.,,Piano keyboard mic on. Volume to allow for conversation at tables.,,,,,,,Slide - Theme logo,"Show breaks for dinner service:
+
+Pianist/Josh Elboom plays piano during dinner.","Lights, Sound, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. Source dinner duration is approximately 45 min; 6:47–7:30 is 43 min. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,14,item-014,source-014,source-014-house|source-014-lav|source-014-piano|source-014-screens|source-014-stage
+027,Year in Review,standby,,,30,7:30 PM,,Before the linked GO — confirm standby point. ,Down,Up,,Fr Brian lav on.,,,,,,,,Speaker,Camera feed,"Year in Review:
+
+Fr Brian walks up to the stage.
+
+Fr Brian call to attention, provides a personal reflection, and introduces the year in review video","Standby House lights down
+Standby Stage lights up
+Standby Fr Brian lav on
+Standby camera — Speaker
+Standby screens — Camera feed","Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,15,item-015,source-015,source-015-camera|source-015-house|source-015-lav|source-015-screens|source-015-stage
+028,Year in Review,go,7:30 PM,,,7:30 PM,1 Minutes,,Down,Up,,Fr Brian lav on.,,,,,,,,Speaker,Camera feed,"Year in Review:
+
+Fr Brian walks up to the stage.
+
+Fr Brian call to attention, provides a personal reflection, and introduces the year in review video","Lights, Sound, Camera, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,15,item-015,source-015,source-015-camera|source-015-house|source-015-lav|source-015-screens|source-015-stage
+029,Year in Review,standby,,,30,7:31 PM,,Before the linked GO — confirm standby point. ,,Down,,,,,,,,,,,Video - Year in Review,Play year in review video,"Standby Stage lights down
+Standby screens — Year in Review","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Estimated time assumes the preceding duration ends at this cue. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,16,item-015,source-016,source-016-screens|source-016-stage
+030,Year in Review,go,,7:31 PM,,7:31 PM,3 Minutes,,,Down,,,,,,,,,,,Video - Year in Review,Play year in review video,"Lights, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Estimated time assumes the preceding duration ends at this cue. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,16,item-015,source-016,source-016-screens|source-016-stage
+031,Golden Ticket Drawing,standby,,,30,7:34 PM,,Before the linked GO — confirm standby point. ,,Up,,,,,,,,,,,Slide - Golden ticket,"Golden Ticket Drawing:
+
+Fr Brian sets up golden ticket raffle options. 
+
+Mari Cabrera walks up to the stage with the tickets. (Provided by Julie.) 
+
+Fr. Brian draws and announces the winner and their prize selection. 
+
+Fr Brian introduces auctioneer from Raising Paddles, Erin Williams.","Standby Stage lights up
+Standby screens — Golden ticket","Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,17,item-017,source-017,source-017-screens|source-017-stage
+032,Golden Ticket Drawing,go,7:34 PM,,,7:34 PM,2 Minutes,,,Up,,,,,,,,,,,Slide - Golden ticket,"Golden Ticket Drawing:
+
+Fr Brian sets up golden ticket raffle options. 
+
+Mari Cabrera walks up to the stage with the tickets. (Provided by Julie.) 
+
+Fr. Brian draws and announces the winner and their prize selection. 
+
+Fr Brian introduces auctioneer from Raising Paddles, Erin Williams.","Lights, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,17,item-017,source-017,source-017-screens|source-017-stage
+033,Live auction,standby,,,30,7:36 PM,,Before the linked GO — confirm standby point. ,Up,,,,,,,,DJ sound on.,,,,Slide - Theme logo,"Live auction:
+
+DJ plays ""For the love of money"" walk up music.","Standby House lights up
+Standby DJ music
+Standby screens — Theme logo","Caller wording is suggested; confirm the GO trigger with the show team. 15 min covers the live-auction segment, including following auction items. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,18,item-018,source-018,source-018-dj|source-018-house|source-018-screens
+034,Live auction,go,7:36 PM,,,7:36 PM,15 Minutes,,Up,,,,,,,,DJ sound on.,,,,Slide - Theme logo,"Live auction:
+
+DJ plays ""For the love of money"" walk up music.","Lights, DJ, Screens, GO!","Caller wording is suggested; confirm the GO trigger with the show team. 15 min covers the live-auction segment, including following auction items. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,18,item-018,source-018,source-018-dj|source-018-house|source-018-screens
+035,Live auction,standby,,,30,,,Before the linked GO — confirm standby point. Only if NOT selected by Golden Ticket winner,,,,,,,,Auctioneer/Erin handheld mic on.,,,,,"Holy Spirits and FIne Spirits 
+(DISPLAY OR SKIP)","Auctioneer/Erin makes her way to the stage. Fundraising ambassadors will work the floor. 
+
+Start with Holy Spirits and Fine Spirits if not not selected by the golden ticket winner. Otherwise skip.
+
+Five live auction items:
+#1 Escape to Cabo San Lucas
+#2 Lakeside getaway at Innsbrook
+#3 Taylor Swift signed guitar & Travis Kelsey signed jersey
+#4 Grand Canyon Glamping
+#5 All-inclusive Caribbean vacation","Standby Erin handheld on
+Standby screens — Holy Spirits and FIne Spirits (DISPLAY OR SKIP)","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Source says ""if not not selected""; interpreted from its following ""otherwise skip"". Confirm. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,19,item-018,source-019-1,source-019-1-erin|source-019-1-screens
+036,Live auction,go,,,,,,Only if NOT selected by Golden Ticket winner,,,,,,,,Auctioneer/Erin handheld mic on.,,,,,"Holy Spirits and FIne Spirits 
+(DISPLAY OR SKIP)","Auctioneer/Erin makes her way to the stage. Fundraising ambassadors will work the floor. 
+
+Start with Holy Spirits and Fine Spirits if not not selected by the golden ticket winner. Otherwise skip.
+
+Five live auction items:
+#1 Escape to Cabo San Lucas
+#2 Lakeside getaway at Innsbrook
+#3 Taylor Swift signed guitar & Travis Kelsey signed jersey
+#4 Grand Canyon Glamping
+#5 All-inclusive Caribbean vacation","Sound, Screens, GO!","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Source says ""if not not selected""; interpreted from its following ""otherwise skip"". Confirm. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,19,item-018,source-019-1,source-019-1-erin|source-019-1-screens
+037,Live auction,standby,,,30,,,Before the linked GO — confirm standby point. On auctioneer introducing this item (confirm),,,,,,,,,,,,,#1 Escape to Cabo,,Standby screens — #1 Escape to Cabo,"Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,19,item-018,source-019-2,source-019-2-screens
+038,Live auction,go,,,,,,On auctioneer introducing this item (confirm),,,,,,,,,,,,,#1 Escape to Cabo,,"Screens, GO!",Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,19,item-018,source-019-2,source-019-2-screens
+039,Live auction,standby,,,30,,,Before the linked GO — confirm standby point. On auctioneer introducing this item (confirm),,,,,,,,,,,,,#2 Innsbrook,,Standby screens — #2 Innsbrook,"Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,19,item-018,source-019-3,source-019-3-screens
+040,Live auction,go,,,,,,On auctioneer introducing this item (confirm),,,,,,,,,,,,,#2 Innsbrook,,"Screens, GO!",Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,19,item-018,source-019-3,source-019-3-screens
+041,Live auction,standby,,,30,,,Before the linked GO — confirm standby point. On auctioneer introducing this item (confirm),,,,,,,,,,,,,#3 Guitar and Jersey,,Standby screens — #3 Guitar and Jersey,"Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,19,item-018,source-019-4,source-019-4-screens
+042,Live auction,go,,,,,,On auctioneer introducing this item (confirm),,,,,,,,,,,,,#3 Guitar and Jersey,,"Screens, GO!",Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,19,item-018,source-019-4,source-019-4-screens
+043,Live auction,standby,,,30,,,Before the linked GO — confirm standby point. On auctioneer introducing this item (confirm),,,,,,,,,,,,,#4 Grand Canyon,,Standby screens — #4 Grand Canyon,"Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,19,item-018,source-019-5,source-019-5-screens
+044,Live auction,go,,,,,,On auctioneer introducing this item (confirm),,,,,,,,,,,,,#4 Grand Canyon,,"Screens, GO!",Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,19,item-018,source-019-5,source-019-5-screens
+045,Live auction,standby,,,30,,,Before the linked GO — confirm standby point. On auctioneer introducing this item (confirm),,,,,,,,,,,,,#5 Caribbean,,Standby screens — #5 Caribbean,"Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,19,item-018,source-019-6,source-019-6-screens
+046,Live auction,go,,,,,,On auctioneer introducing this item (confirm),,,,,,,,,,,,,#5 Caribbean,,"Screens, GO!",Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,19,item-018,source-019-6,source-019-6-screens
+047,Golf cart karaoke video,standby,,,30,7:51 PM,,Before the linked GO — confirm standby point. ,,,,,,,,,,,,,Slide - Theme logo,"Golf cart karaoke video:
+
+Erin introduces the video. Let's hear from more voices from our CSC community...",Standby screens — Theme logo,"Caller wording is suggested; confirm the GO trigger with the show team. 3 min appears to cover the introduction and following video; confirm split. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,20,item-020,source-020,source-020-screens
+048,Golf cart karaoke video,go,7:51 PM,,,7:51 PM,3 Minutes,,,,,,,,,,,,,,Slide - Theme logo,"Golf cart karaoke video:
+
+Erin introduces the video. Let's hear from more voices from our CSC community...","Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. 3 min appears to cover the introduction and following video; confirm split. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,20,item-020,source-020,source-020-screens
+049,Golf cart karaoke video,standby,,,30,,,Before the linked GO — confirm standby point. ,Down,Down,,,,,,Auctioneer/Erin handheld mic off.,,,,,Video - Golf cart,Play golf cart karaoke video.,"Standby House lights down
+Standby Stage lights down
+Standby Erin handheld off
+Standby screens — Golf cart","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,21,item-020,source-021,source-021-erin|source-021-house|source-021-screens|source-021-stage
+050,Golf cart karaoke video,go,,,,,,,Down,Down,,,,,,Auctioneer/Erin handheld mic off.,,,,,Video - Golf cart,Play golf cart karaoke video.,"Lights, Sound, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,21,item-020,source-021,source-021-erin|source-021-house|source-021-screens|source-021-stage
+051,Alumni testimonial - Tim Bono,standby,,,30,7:54 PM,,Before the linked GO — confirm standby point. ,,Up,,,Podium mic on.,,,,,,,Speaker,Slide - Fr Gary Braun,"Alumni testimonial - Tim Bono:
+
+Gary and Tim make their way to the stage as the golf cart video plays.
+
+Gary introduces Tim from the podium and exits the stage.","Standby Stage lights up
+Standby Podium mic on
+Standby camera — Speaker
+Standby screens — Fr Gary Braun","Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,22,item-022,source-022-1,source-022-1-camera|source-022-1-podium|source-022-1-screens|source-022-1-stage
+052,Alumni testimonial - Tim Bono,go,7:54 PM,,,7:54 PM,2 Minutes,,,Up,,,Podium mic on.,,,,,,,Speaker,Slide - Fr Gary Braun,"Alumni testimonial - Tim Bono:
+
+Gary and Tim make their way to the stage as the golf cart video plays.
+
+Gary introduces Tim from the podium and exits the stage.","Lights, Sound, Camera, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,22,item-022,source-022-1,source-022-1-camera|source-022-1-podium|source-022-1-screens|source-022-1-stage
+053,Alumni testimonial - Tim Bono,standby,,,30,,,Before the linked GO — confirm standby point. On speaker / caller direction (confirm),,,,,,,,,,,,,Switch to camera feed,,Standby screens — Switch to camera feed,"Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,22,item-022,source-022-2,source-022-2-screens
+054,Alumni testimonial - Tim Bono,go,,,,,,On speaker / caller direction (confirm),,,,,,,,,,,,,Switch to camera feed,,"Screens, GO!",Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,22,item-022,source-022-2,source-022-2-screens
+055,Alumni testimonial - Tim Bono,standby,,,30,7:56 PM,,Before the linked GO — confirm standby point. Hold Tim Bono slide until he stops referring to it,,,,,,,,,,,,,Slide -Tim Bono - Stay on slide until speaker stops referring to it,"Tim provides testimonial from podium.
+
+Tim exits the stage.",Standby screens — Tim Bono - Stay on slide until speaker stops referring to it,"Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Estimated time assumes the preceding duration ends at this cue. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,23,item-022,source-023-1,source-023-1-screens
+056,Alumni testimonial - Tim Bono,go,,7:56 PM,,7:56 PM,4 Minutes,Hold Tim Bono slide until he stops referring to it,,,,,,,,,,,,,Slide -Tim Bono - Stay on slide until speaker stops referring to it,"Tim provides testimonial from podium.
+
+Tim exits the stage.","Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Estimated time assumes the preceding duration ends at this cue. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,23,item-022,source-023-1,source-023-1-screens
+057,Alumni testimonial - Tim Bono,standby,,,30,,,Before the linked GO — confirm standby point. On speaker / caller direction (confirm),,,,,,,,,,,,,Switch to camera feed,,Standby screens — Switch to camera feed,"Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,23,item-022,source-023-2,source-023-2-screens
+058,Alumni testimonial - Tim Bono,go,,,,,,On speaker / caller direction (confirm),,,,,,,,,,,,,Switch to camera feed,,"Screens, GO!",Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,23,item-022,source-023-2,source-023-2-screens
+059,Fund-a-Need: Chapel sound system,standby,,,30,8:00 PM,,Before the linked GO — confirm standby point. ,,,,,,,,,DJ sound on.,,,Speaker,Slide - Jim Dryden.,"Fund-a-Need: Chapel sound system
+
+Jim walks up to the stage as Tim exits. 
+
+DJ plays upbeat instrumental walk up music as Tim exits and Jim walks up to the stage 
+
+Jim introduces himself and sets up/defines the fund-a-need from the podium.
+
+Before I turn this over to Erin... Jim introduces the video.","Standby DJ music
+Standby camera — Speaker
+Standby screens — Jim Dryden.","Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,24,item-024,source-024-1,source-024-1-camera|source-024-1-dj|source-024-1-screens
+060,Fund-a-Need: Chapel sound system,go,8:00 PM,,,8:00 PM,2 Minutes,,,,,,,,,,DJ sound on.,,,Speaker,Slide - Jim Dryden.,"Fund-a-Need: Chapel sound system
+
+Jim walks up to the stage as Tim exits. 
+
+DJ plays upbeat instrumental walk up music as Tim exits and Jim walks up to the stage 
+
+Jim introduces himself and sets up/defines the fund-a-need from the podium.
+
+Before I turn this over to Erin... Jim introduces the video.","DJ, Camera, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,24,item-024,source-024-1,source-024-1-camera|source-024-1-dj|source-024-1-screens
+061,Fund-a-Need: Chapel sound system,standby,,,30,,,Before the linked GO — confirm standby point. On speaker / caller direction (confirm),,,,,,,,,,,,,Switch to camera feed.,,Standby screens — Switch to camera feed.,"Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,24,item-024,source-024-2,source-024-2-screens
+062,Fund-a-Need: Chapel sound system,go,,,,,,On speaker / caller direction (confirm),,,,,,,,,,,,,Switch to camera feed.,,"Screens, GO!",Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,24,item-024,source-024-2,source-024-2-screens
+063,Fund-a-Need: Chapel sound system,standby,,,30,8:02 PM,,Before the linked GO — confirm standby point. ,,Down,,,,,,,DJ sound off.,,,,Video - Testimonials,"Testimonial video:
+
+Play testimonial video.","Standby Stage lights down
+Standby DJ music off
+Standby screens — Testimonials","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Estimated time assumes the preceding duration ends at this cue. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,25,item-024,source-025,source-025-dj|source-025-screens|source-025-stage
+064,Fund-a-Need: Chapel sound system,go,,8:02 PM,,8:02 PM,2 Minutes,,,Down,,,,,,,DJ sound off.,,,,Video - Testimonials,"Testimonial video:
+
+Play testimonial video.","Lights, DJ, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Estimated time assumes the preceding duration ends at this cue. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,25,item-024,source-025,source-025-dj|source-025-screens|source-025-stage
+065,Fund-a-Need: Chapel sound system,standby,,,30,,,Before the linked GO — confirm standby point. ,Up,Up,,,Podium mic off.,,,Auctioneer/Erin handheld mic on.,,,,,Slide - Fund-a-need Let every voice be heard,"Auctioneer/Erin returns to the stage while video plays.
+
+Auctioneer/Erin facilitates bids/contributions AND paddle drop.","Standby House lights up
+Standby Stage lights up
+Standby Podium mic off
+Standby Erin handheld on
+Standby screens — Fund-a-need Let every voice be heard","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. 20 min covers bids and paddle drop, including following amount slides. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,26,item-024,source-026,source-026-erin|source-026-house|source-026-podium|source-026-screens|source-026-stage
+066,Fund-a-Need: Chapel sound system,go,,,,,20 Minutes,,Up,Up,,,Podium mic off.,,,Auctioneer/Erin handheld mic on.,,,,,Slide - Fund-a-need Let every voice be heard,"Auctioneer/Erin returns to the stage while video plays.
+
+Auctioneer/Erin facilitates bids/contributions AND paddle drop.","Lights, Sound, Screens, GO!","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. 20 min covers bids and paddle drop, including following amount slides. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,26,item-024,source-026,source-026-erin|source-026-house|source-026-podium|source-026-screens|source-026-stage
+067,Fund-a-Need: Chapel sound system,standby,,,30,,,Before the linked GO — confirm standby point. On auctioneer calling this giving level (confirm),,,,,,,,,,,,,"Slide - Fund-a-need: $20,000",,"Standby screens — Fund-a-need: $20,000","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,27,item-024,source-027,source-027-screens
+068,Fund-a-Need: Chapel sound system,go,,,,,,On auctioneer calling this giving level (confirm),,,,,,,,,,,,,"Slide - Fund-a-need: $20,000",,"Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,27,item-024,source-027,source-027-screens
+069,Fund-a-Need: Chapel sound system,standby,,,30,,,Before the linked GO — confirm standby point. On auctioneer calling this giving level (confirm),,,,,,,,,,,,,"Slide - Fund-a-need: $15,000",,"Standby screens — Fund-a-need: $15,000","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,28,item-024,source-028,source-028-screens
+070,Fund-a-Need: Chapel sound system,go,,,,,,On auctioneer calling this giving level (confirm),,,,,,,,,,,,,"Slide - Fund-a-need: $15,000",,"Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,28,item-024,source-028,source-028-screens
+071,Fund-a-Need: Chapel sound system,standby,,,30,,,Before the linked GO — confirm standby point. On auctioneer calling this giving level (confirm),,,,,,,,,,,,,"Slide - Fund-a-need: $10,000",,"Standby screens — Fund-a-need: $10,000","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,29,item-024,source-029,source-029-screens
+072,Fund-a-Need: Chapel sound system,go,,,,,,On auctioneer calling this giving level (confirm),,,,,,,,,,,,,"Slide - Fund-a-need: $10,000",,"Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,29,item-024,source-029,source-029-screens
+073,Fund-a-Need: Chapel sound system,standby,,,30,,,Before the linked GO — confirm standby point. On auctioneer calling this giving level (confirm),,,,,,,,,,,,,"Slide - Fund-a-need: $5,000",,"Standby screens — Fund-a-need: $5,000","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,30,item-024,source-030,source-030-screens
+074,Fund-a-Need: Chapel sound system,go,,,,,,On auctioneer calling this giving level (confirm),,,,,,,,,,,,,"Slide - Fund-a-need: $5,000",,"Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,30,item-024,source-030,source-030-screens
+075,Fund-a-Need: Chapel sound system,standby,,,30,,,Before the linked GO — confirm standby point. On auctioneer calling this giving level (confirm),,,,,,,,,,,,,"Slide - Fund-a-need: $2,500",,"Standby screens — Fund-a-need: $2,500","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,31,item-024,source-031,source-031-screens
+076,Fund-a-Need: Chapel sound system,go,,,,,,On auctioneer calling this giving level (confirm),,,,,,,,,,,,,"Slide - Fund-a-need: $2,500",,"Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,31,item-024,source-031,source-031-screens
+077,Fund-a-Need: Chapel sound system,standby,,,30,,,Before the linked GO — confirm standby point. On auctioneer calling this giving level (confirm),,,,,,,,,,,,,"Slide - Fund-a-need: $1,000",,"Standby screens — Fund-a-need: $1,000","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,32,item-024,source-032,source-032-screens
+078,Fund-a-Need: Chapel sound system,go,,,,,,On auctioneer calling this giving level (confirm),,,,,,,,,,,,,"Slide - Fund-a-need: $1,000",,"Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,32,item-024,source-032,source-032-screens
+079,Fund-a-Need: Chapel sound system,standby,,,30,,,Before the linked GO — confirm standby point. On auctioneer calling this giving level (confirm),,,,,,,,,,,,,Slide - Fund-a-need $500,,Standby screens — Fund-a-need $500,"Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,33,item-024,source-033,source-033-screens
+080,Fund-a-Need: Chapel sound system,go,,,,,,On auctioneer calling this giving level (confirm),,,,,,,,,,,,,Slide - Fund-a-need $500,,"Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,33,item-024,source-033,source-033-screens
+081,Fund-a-Need: Chapel sound system,standby,,,30,,,Before the linked GO — confirm standby point. On auctioneer calling this giving level (confirm),,,,,,,,,,,,,Slide - Fund-a-need $250,,Standby screens — Fund-a-need $250,"Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,34,item-024,source-034,source-034-screens
+082,Fund-a-Need: Chapel sound system,go,,,,,,On auctioneer calling this giving level (confirm),,,,,,,,,,,,,Slide - Fund-a-need $250,,"Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,34,item-024,source-034,source-034-screens
+083,Fund-a-Need: Chapel sound system,standby,,,30,,,Before the linked GO — confirm standby point. ,,,,Fr Brian lav mic on.,,,,,DJ sound on.,,,,Slide - Fund-a-need $100,"Fr Brian walks up to the stage at the start of this segment.
+
+Erin sets up paddle drop, shares prize options (on screen) and facilitates bidding.
+
+Bid cards of contributors are collected by Raising Paddles team and CSC student volunteers. Baskets provided.
+
+DJ plays upbeat music while we collect the bid cards.
+
+Fr Brian helps with drawing.","Standby Fr Brian lav on
+Standby DJ music
+Standby screens — Fund-a-need $100","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,35,item-024,source-035-1,source-035-1-dj|source-035-1-lav|source-035-1-screens
+084,Fund-a-Need: Chapel sound system,go,,,,,,,,,,Fr Brian lav mic on.,,,,,DJ sound on.,,,,Slide - Fund-a-need $100,"Fr Brian walks up to the stage at the start of this segment.
+
+Erin sets up paddle drop, shares prize options (on screen) and facilitates bidding.
+
+Bid cards of contributors are collected by Raising Paddles team and CSC student volunteers. Baskets provided.
+
+DJ plays upbeat music while we collect the bid cards.
+
+Fr Brian helps with drawing.","Sound, DJ, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,35,item-024,source-035-1,source-035-1-dj|source-035-1-lav|source-035-1-screens
+085,Fund-a-Need: Chapel sound system,standby,,,30,,,Before the linked GO — confirm standby point. On speaker / caller direction (confirm),,,,,,,,,,,,,Slide - Prize options,,Standby screens — Prize options,"Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,35,item-024,source-035-2,source-035-2-screens
+086,Fund-a-Need: Chapel sound system,go,,,,,,On speaker / caller direction (confirm),,,,,,,,,,,,,Slide - Prize options,,"Screens, GO!",Sequential screen cue split from a source cell; confirm the GO trigger. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,35,item-024,source-035-2,source-035-2-screens
+087,Close,standby,,,30,8:24 PM,,Before the linked GO — confirm standby point. ,Down,,,,,,,,,,,Speaker,Camera feed,"Close:
+
+Fr Brian closes.","Standby House lights down
+Standby camera — Speaker
+Standby screens — Camera feed","Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,36,item-036,source-036,source-036-camera|source-036-house|source-036-screens
+088,Close,go,8:24 PM,,,8:24 PM,1 Minute,,Down,,,,,,,,,,,Speaker,Camera feed,"Close:
+
+Fr Brian closes.","Lights, Camera, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,36,item-036,source-036,source-036-camera|source-036-house|source-036-screens
+089,Close,standby,,,30,8:25 PM,,Before the linked GO — confirm standby point. ,,Down,,Fr Brian lav mic off.,,,,,DJ sound on.,,,,Video - Photos,"Closing photo video and song:
+
+Play closing photo video WHILE DJ plays Home by Phillip Phillips for ONE minute.","Standby Stage lights down
+Standby Fr Brian lav off
+Standby DJ music
+Standby screens — Photos","Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Source ends this minute at 8:26; dancing is listed at 8:30. Confirm the gap. Estimated time assumes the preceding duration ends at this cue. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,37,item-036,source-037,source-037-dj|source-037-lav|source-037-screens|source-037-stage
+090,Close,go,,8:25 PM,,8:25 PM,1 Minute,,,Down,,Fr Brian lav mic off.,,,,,DJ sound on.,,,,Video - Photos,"Closing photo video and song:
+
+Play closing photo video WHILE DJ plays Home by Phillip Phillips for ONE minute.","Lights, Sound, DJ, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. No clock time supplied; call on the agreed trigger. Source ends this minute at 8:26; dancing is listed at 8:30. Confirm the gap. Estimated time assumes the preceding duration ends at this cue. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,37,item-036,source-037,source-037-dj|source-037-lav|source-037-screens|source-037-stage
+091,Music and Dancing,standby,,,30,"8:30 PM - 
+10:00 PM",,Before the linked GO — confirm standby point. ,Up,,,,,,,,,,,,Slide - Theme logo,"Music and Dancing:
+
+Immediately transition to DJ and dancing. 
+
+DJ will announce that the dance floor is open.","Standby House lights up
+Standby screens — Theme logo","Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Standby lead is an editable 30-second suggestion, not supplied by the source. Actions on this screen are proposed as one shared call point; confirm simultaneity.",False,38,item-038,source-038,source-038-house|source-038-screens
+092,Music and Dancing,go,"8:30 PM - 
+10:00 PM",,,"8:30 PM - 
+10:00 PM",1.5 hours,,Up,,,,,,,,,,,,Slide - Theme logo,"Music and Dancing:
+
+Immediately transition to DJ and dancing. 
+
+DJ will announce that the dance floor is open.","Lights, Screens, GO!",Caller wording is suggested; confirm the GO trigger with the show team. Program grouping and individual call order are proposed; review. Actions on this screen are proposed as one shared call point; confirm simultaneity.,False,38,item-038,source-038,source-038-house|source-038-screens

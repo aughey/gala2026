@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Show caller</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="eyebrow">RUN OF SHOW / CALLING DESK</div>
+    <div class="headline"><h1 id="showTitle">Loading show file…</h1><span id="saveState" role="status">Loading…</span></div>
+    <div class="header-bottom"><p id="fileSource">Reading show file…</p>
+      <nav aria-label="View"><button data-mode="edit">Cue sheet</button><button class="active" data-mode="call">Call the show</button><button data-mode="changes">Changes</button></nav>
+    </div>
+  </header>
+  <main>
+    <section class="summary"><div><strong id="cueCount">—</strong><span>call events</span></div><div><strong id="reviewCount">—</strong><span>awaiting review</span></div><div><strong id="changeCount">—</strong><span>changed events</span></div><p>Blank fields mean no cue specified.<br>Amber times are estimates.</p></section>
+    <div id="error" role="alert" hidden></div>
+    <section class="toolbar" id="toolbar">
+      <label class="search"><span>Find cue</span><input id="search" type="search" placeholder="Speaker, action, time…"></label>
+      <label><span>Columns</span><select id="department"><option value="overview">Calling overview</option><option value="lighting">Lighting</option><option value="audio">Audio</option><option value="video">Camera & screens</option><option value="all">All columns</option></select></label>
+      <label><span>Show</span><select id="filter"><option value="all">All cues</option><option value="review">Needs review</option><option value="changed">Changed cues</option><option value="calls">Cues with calls</option></select></label>
+      <button id="add">+ Add program item</button><button id="export">Export working CSV</button><a href="/export/baseline.csv" download="baseline.csv">Baseline CSV ↗</a>
+    </section>
+    <p class="hint" id="hint">Edit any cell; changes save automatically to the working JSON and CSV. Select a cue number for its source and full details.</p>
+    <section id="editView" hidden><div class="table-wrap"><table id="cueTable"></table></div></section>
+    <section id="callView">
+      <div class="live-bar"><div><span class="live-label">MANUAL SHOW CALLING</span><span id="wallClock"></span></div><div><button id="fullscreen">Full screen</button></div></div>
+      <div class="call-controls"><button id="previous">← Previous</button><span id="position"></span><label>Jump to <select id="jumpCue" aria-label="Jump to cue"></select></label><label><input id="callOnly" type="checkbox" checked> Calls only</label></div>
+      <section class="stage-comparison" aria-labelledby="stageHeading">
+        <div class="stage-toolbar"><div><span class="stage-eyebrow">VISUAL STAGE CHECK</span><h2 id="stageHeading">Where we are → where the call takes us</h2></div><label>Preview target <select id="stageTarget"><option value="current">After this call</option><option value="next">After the next call</option></select></label></div>
+        <p class="stage-disclaimer">Expected settings from the cue sheet, assuming earlier GO / SET calls were completed. Schematic positions; verify against your stage plan. No live equipment feedback.</p>
+        <div id="stageViews" class="stage-views"></div>
+        <div class="stage-legend"><span>● On / up</span><span>○ Off / down</span><span>? Unspecified</span><span>↗ Solid amber · GO change</span><span class="standby-legend">Dotted amber · STANDBY</span><span class="set-legend">Dashed blue · SET now</span></div>
+        <p id="stageDelta" class="stage-delta" role="status"></p>
+      </section>
+      <details class="calling-reference"><summary>Full cue details & upcoming queue</summary><div class="reference-timing"><span id="timerState">Timing not started</span><button id="startTiming">Start timing here</button></div><div class="calling-layout">
+        <div class="current-panel"><div class="current-heading"><span>01 / CURRENT CALL</span><span id="elapsed"></span></div><article id="callCard"></article><button id="next" class="advance">Called — next call → <kbd>Space</kbd></button></div>
+        <aside class="upcoming-panel"><div class="queue-heading"><h2>02 / Up next</h2><label><select id="lookahead" aria-label="Upcoming call count"><option value="1">Next call</option><option value="4">Next 4</option><option value="8">Next 8</option><option value="9999">All remaining</option></select></label></div><div id="nextEstimate"></div><div id="upNext"></div></aside>
+
+      </div></details>
+      <p class="hint">Advance manually with Space or →. ← returns to the previous cue. Timers never advance the show. Timing follows your progress when you enter a timed cue; untimed cues wait for their trigger. Position and timer survive a refresh on this device.</p>
+    </section>
+    <section id="changesView" hidden></section>
+  </main>
+  <dialog id="details"><form method="dialog"><button class="close" aria-label="Close">×</button></form><div id="detailBody"></div></dialog>
+  <script src="timing.js"></script><script src="stage-state.js"></script><script src="app.js"></script>
+</body>
+</html>

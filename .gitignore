@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+*:Zone.Identifier
+dist/
+node_modules/
+test-results/
