@@ -5,7 +5,7 @@ body.calling{background:#101d19;color:#e9f0e8}body.calling header{background:#16
 .event-type{display:inline-block;padding:4px 7px;border-radius:4px;font-size:10px;font-weight:700;letter-spacing:1px;background:#435545;color:#eef2df}.event-type.standby{background:#554b2a;color:#ffe4a2}.event-type.go{background:#32543d;color:#caf1b6}.queue-meta .event-type{font-size:9px}.upcoming-cue h3 small{font-size:10px;color:#a1b09a}.event-tools{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}.insert-call{border:1px solid #bccbbb;border-radius:8px;margin:18px 0;padding:16px}.insert-call legend{font-size:13px}.insert-call input,.insert-call select,dialog select{display:block;width:100%;padding:10px;border:1px solid #bdcbbb;border-radius:5px;background:white;color:#24332f;margin:5px 0 12px}.insert-call button{margin:6px 8px 0 0}td select{max-width:130px;padding:8px;border:1px solid #ccd5ce;border-radius:5px}.event-tools button{font-size:12px}
 /* Visual stage check */
 .stage-comparison{margin:0 auto 26px;max-width:1700px}
-.stage-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.stage-toolbar{display:flex;align-items:center;justify-content:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:8px}
 .stage-eyebrow{font-size:10px;letter-spacing:2px;color:#bfd49f}.stage-toolbar h2{font:25px Georgia,serif;margin:7px 0}
 .stage-toolbar label{display:flex;gap:10px;align-items:center;font-size:12px;color:#b8c9b5}.stage-toolbar select{padding:8px;border-radius:5px}
 .stage-disclaimer{font-size:12px;line-height:1.6;color:#b0c0b0;margin:6px 0 18px}

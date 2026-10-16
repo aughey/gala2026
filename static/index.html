@@ -27,9 +27,8 @@
     <section id="callView">
       <div class="live-bar"><div><span class="live-label">MANUAL SHOW CALLING</span><span id="wallClock"></span></div><div><button id="fullscreen">Full screen</button></div></div>
       <div class="call-controls"><button id="previous">← Previous</button><span id="position"></span><label>Jump to <select id="jumpCue" aria-label="Jump to cue"></select></label><label><input id="callOnly" type="checkbox" checked> Calls only</label></div>
-      <section class="stage-comparison" aria-labelledby="stageHeading">
-        <div class="stage-toolbar"><div><span class="stage-eyebrow">VISUAL STAGE CHECK</span><h2 id="stageHeading">Where we are → where the call takes us</h2></div><label>Preview target <select id="stageTarget"><option value="current">After this call</option><option value="next">After the next call</option></select></label></div>
-        <p class="stage-disclaimer">Expected settings from the cue sheet, assuming earlier GO / SET calls were completed. Schematic positions; verify against your stage plan. No live equipment feedback.</p>
+      <section class="stage-comparison" aria-label="Stage comparison">
+        <div class="stage-toolbar"><label>Preview target <select id="stageTarget"><option value="current">After this call</option><option value="next">After the next call</option></select></label></div>
         <div id="stageViews" class="stage-views"></div>
         <div class="stage-legend"><span>● On / up</span><span>○ Off / down</span><span>? Unspecified</span><span>↗ Solid amber · GO change</span><span class="standby-legend">Dotted amber · STANDBY</span><span class="set-legend">Dashed blue · SET now</span></div>
         <p id="stageDelta" class="stage-delta" role="status"></p>
